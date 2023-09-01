@@ -1,11 +1,14 @@
 import React from 'react';
-import './style.css';
+import Registration from './Registration';
+import Login from './Login';
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Registration />
+      <Login />
     </div>
   );
 }
+
+export default App;
